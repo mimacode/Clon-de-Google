@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-size: 62.5%;
+}
+header{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.7rem;
+}
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    margin-right: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(0, 0, 0, 0.699);
+}
+.icono-menu img, .fotoperfil img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+.fotoperfil img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+}
+main{
+    width: 100vw;
+    height: 300px;
+    text-align: center;
+
+}
+.centrar{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 150px;
+}
+.barraBusqueda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 3rem;
+    padding: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    border-radius: 30px;
+}
+.barra{
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border: none;
+}
+.barraBusqueda:hover{
+    box-shadow: 0px 1px 6px 0px #20212447;
+    border-color: rgba(0, 0, 0, 0.103);
+}
+.search-icon{
+    background-image: url(/search.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 18px;
+    height: 18px;
+}
+.microphone-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg );
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 18px;
+    height: 18px;
+}
+.buttons{
+    display: flex;
+}
+button{
+    color: rgba(37, 37, 37, 0.329);
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 0.9rem;
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+button:hover{
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    color: rgba(0, 0, 0, 0.644);
+    box-shadow: 0px 1px 2px 0px #20212447;
+}
+footer{
+    width: 100%;
+    background-color: #70757a1c;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* divide en dos fracciones el footer */
+    border: 1px solid #dadce0;
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 0;
+}
+.content2{
+    text-align: right;
+}
